@@ -1,0 +1,44 @@
+.auth__wrapper {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 3fr 1fr;
+  justify-content: center;
+  background: rgb(216, 216, 216);
+}
+.form {
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  grid-area: 2/2;
+}
+.inputfield {
+  width: 300px;
+  height: 30px;
+  display: block;
+}
+.header {
+  grid-area: 1/2;
+  padding-bottom: 20px;
+  /* bottom: 400px; */
+}
+.error {
+  padding: 0;
+  color: red;
+}
+.regist__btn {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  background: cyan;
+  padding: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px rgba(0, 0, 0, 0.5);
+}
+.title {
+}
+.btn {
+  padding: 10px;
+  margin-right: 10px;
+  display: block;
+  border-radius: 5px;
+}
